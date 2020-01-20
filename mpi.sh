@@ -8,8 +8,8 @@
 
     echo "Installing Open MPI"
     export OMPI_DIR=/opt/ompi
-    export OMPI_VERSION=4.0.1
-    export OMPI_URL="https://download.open-mpi.org/release/open-mpi/v4.0/openmpi-$OMPI_VERSION.tar.bz2"
+    export OMPI_VERSION=3.1.4
+    export OMPI_URL="https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-$OMPI_VERSION.tar.bz2"
     mkdir -p /tmp/ompi
     mkdir -p /opt
     # Download

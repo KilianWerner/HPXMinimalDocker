@@ -17,6 +17,7 @@ COPY hpx-requirements.sh /home/myUser
 RUN /home/myUser/hpx-requirements.sh
 
 COPY hpx.sh /home/myUser/
+COPY slurm_environment.cpp /home/myUser/
 RUN /home/myUser/hpx.sh
 
 WORKDIR /home/myUser
