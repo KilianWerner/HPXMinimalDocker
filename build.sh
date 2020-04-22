@@ -1,5 +1,3 @@
-apt install -y libglm-dev
-
 cd MinimalExample
 mkdir build
 cd build

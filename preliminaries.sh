@@ -4,6 +4,7 @@ apt-get install -y --no-install-recommends apt-utils
 apt-get install -y sudo
 apt-get install -y cmake-curses-gui
 apt-get install -y cmake
+apt-get install -y gdb
 
 
 
